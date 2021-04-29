@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+     <!--font awesome cdnjs link-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+     integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+ 
+     <!--css style ref-->
+     <link rel="stylesheet" href="style.css">
+
+    <title> Search Forms </title>
+</head>
+<body>
+    
+<h1>Search Below</h1>
+
+<div class="card-container">
+
+    <div class="card active">
+        <div class="google-card">
+            <h2>Search Google</h2>
+            <form action="https://www.google.com/search">
+
+  	  			    <input type="text" class="input" placeholder="type here..." name="q" required/>
+  	
+  	            <button type="submit" class="btn" formtarget="_blank"> Search Google 
+                    <i class="fab fa-google"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+    
+    <div class="card">
+        <div class="yt-card">
+            <h2>Search Youtube</h2>
+            <form action="https://www.youtube.com/results">
+
+                    <input type="text" class="input" placeholder="search ..." name="search_query" required/>
+
+                <button type="submit" class="btn" formtarget="_blank"> Search Youtube 
+                    <i class="fab fa-youtube"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="reddit-card">
+            <h2>Search Reddit</h2>
+            <form action="https://www.reddit.com/search">
+        
+                    <input type="text" class="input" placeholder="type here..." name="q" required/>
+
+                <button type="submit" class="btn" formtarget="_blank"> Search Reddit 
+                    <i class="fab fa-reddit-alien"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="twit-card">
+            <h2>Search Twitter</h2>
+            <form action="https://twitter.com/search">
+
+                    <input type="text" class="input" placeholder="search ..." name="q" required/>
+
+                <button type="submit" class="btn" formtarget="_blank"> Search Twitter 
+                    <i class="fab fa-twitter"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="stack-card">
+            <h2>Search Stack Overflow</h2>
+            <form action="https://stackoverflow.com/search">
+        
+                    <input type="text" class="input" placeholder="type here..." name="q" required/>
+
+                <button type="submit" class="btn" formtarget="_blank"> Search Stack Overflow 
+                    <i class="fab fa-stack-overflow"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="git-card">
+            <h2>Search Github</h2>
+            <form action="https://github.com/search">
+                
+                    <input type="text" class="input" placeholder="type here..." name="q" required/>
+        
+                <button type="submit" class="btn" name="search-git" formtarget="_blank"> Search Github 
+                        <i class="fab fa-github-alt"></i>
+                </button>
+            </form>
+        </div>
+    </div>
+      
+    <!--   
+    <i class="fas fa-arrow-alt-circle-left fa-3x"></i>
+    <i class="fas fa-arrow-alt-circle-right fa-3x"></i>
+    -->
+
+</div>
+
+
+    <!--js ref-->
+    <script src="script.js"></script>    
+</body>
+</html>
+

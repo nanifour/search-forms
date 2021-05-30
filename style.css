@@ -67,8 +67,12 @@ body{
     justify-content: center;  
    /* flex-wrap: wrap; */
    flex-wrap: wrap;
+
 }
 
+.card{
+    flex-basis: 33.333333%;
+}
 
 
 /* card styling */

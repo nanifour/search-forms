@@ -1,6 +1,6 @@
 # Search Forms :mag_right: 
 
-Search six website from one. 
+Search six websites from one. 
 
 ![](https://img.shields.io/github/languages/top/nanifour/search-forms?style=for-the-badge)        [![Demo](https://img.shields.io/badge/Demo-informational?style=for-the-badge&logo=github)](https://nanifour.github.io/search-forms/)
 
